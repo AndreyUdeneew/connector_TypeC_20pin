@@ -1,0 +1,66 @@
+P-CAD Net List Load Errors
+
+======================================================================
+
+Netlist filename: C:\YandexDisk\MyPCADprojects\connector_TypeC_20pin\connector_TypeC_20pin(rev00).net
+Warning: Net NET00013 has less than two nodes.
+Warning: Net SBU2 has less than two nodes.
+Warning: Net SBU1 has less than two nodes.
+Warning: Net CC2 has less than two nodes.
+Warning: Net CC1 has less than two nodes.
+Warning: Net VBUS_3_C has less than two nodes.
+Warning: Net RX+1_C has less than two nodes.
+Warning: Net TX+1_C has less than two nodes.
+Warning: Net D+1_C has less than two nodes.
+Warning: Net D-1_C has less than two nodes.
+Warning: Net VBUS_2_C has less than two nodes.
+Warning: Net RX-2_C has less than two nodes.
+Warning: Net TX-1_C has less than two nodes.
+Warning: Net VBUS_0_C has less than two nodes.
+Warning: Net RX-1_C has less than two nodes.
+Warning: Net VBUS_1_C has less than two nodes.
+Warning: Net D-0_C has less than two nodes.
+Warning: Net D+0_C has less than two nodes.
+Warning: Net TX-2_C has less than two nodes.
+Warning: Net TX+2_C has less than two nodes.
+Warning: Net RX+2_C has less than two nodes.
+SHORTED NETS:
+
+
+Net List Errors:   0
+Net List Warnings: 21
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+
+23-Nov-21  21:14                                            Page    1
+
