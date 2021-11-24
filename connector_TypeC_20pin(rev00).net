@@ -1,8 +1,8 @@
-ACCEL_ASCII "C:\YandexDisk\MyPCADprojects\connector_TypeC_20pin\connector_TypeC_20pin(rev00).net"
+ACCEL_ASCII "C:\YandexDisk\MyPCADprojects\connector_TypeC_20pin\connector_TypeC_20pin\connector_TypeC_20pin(rev00).net"
 
 (asciiHeader 
   (asciiVersion 3 0)
-  (timeStamp 2021 11 23 21 14 33)
+  (timeStamp 2021 11 24 18 7 15)
   (program "P-CAD 2006 Schematic" "19.02.9589")
   (copyright "Copyright © 1992-2006 Altium Limited")
   (fileAuthor "")
@@ -6643,19 +6643,37 @@ ACCEL_ASCII "C:\YandexDisk\MyPCADprojects\connector_TypeC_20pin\connector_TypeC_
     (originalName "DX07S024WJ3R400")
     (patternName "DX07S024WJ3R400")
   )
+  (net "VBUS"
+    (node "X2" "11")
+    (node "X2" "10")
+    (node "X1" "9")
+    (node "X1" "4")
+    (node "X1" "21")
+    (node "X1" "16")
+  )
   (net "GND"
-    (node "X2" "4")
+    (node "X1" "1")
+    (node "X1" "26")
+    (node "X1" "25")
+    (node "X1" "12")
+    (node "X1" "24")
+    (node "X1" "27")
+    (node "X1" "28")
+    (node "X1" "13")
     (node "X2" "1")
     (node "X2" "17")
     (node "X2" "20")
-    (node "X1" "26")
-    (node "X1" "27")
-    (node "X1" "24")
-    (node "X1" "1")
-    (node "X1" "25")
-    (node "X1" "28")
-    (node "X1" "13")
-    (node "X1" "12")
+    (node "X2" "4")
+  )
+  (net "D-"
+    (node "X2" "12")
+    (node "X1" "18")
+    (node "X1" "6")
+  )
+  (net "D+"
+    (node "X2" "13")
+    (node "X1" "19")
+    (node "X1" "7")
   )
   (net "NET00013"
   )
@@ -6671,52 +6689,36 @@ ACCEL_ASCII "C:\YandexDisk\MyPCADprojects\connector_TypeC_20pin\connector_TypeC_
   (net "CC1"
     (node "X1" "20")
   )
-  (net "VBUS_3_C"
-    (node "X1" "21")
-  )
   (net "RX+1_C"
+    (node "X2" "6")
+    (node "X2" "5")
     (node "X1" "2")
   )
   (net "TX+1_C"
+    (node "X2" "2")
     (node "X1" "23")
   )
-  (net "D+1_C"
-    (node "X1" "19")
-  )
-  (net "D-1_C"
-    (node "X1" "18")
-  )
-  (net "VBUS_2_C"
-    (node "X1" "16")
-  )
   (net "RX-2_C"
+    (node "X2" "18")
     (node "X1" "15")
   )
   (net "TX-1_C"
+    (node "X2" "3")
     (node "X1" "22")
-  )
-  (net "VBUS_0_C"
-    (node "X1" "4")
   )
   (net "RX-1_C"
     (node "X1" "3")
   )
-  (net "VBUS_1_C"
-    (node "X1" "9")
-  )
-  (net "D-0_C"
-    (node "X1" "6")
-  )
-  (net "D+0_C"
-    (node "X1" "7")
-  )
   (net "TX-2_C"
+    (node "X2" "15")
     (node "X1" "10")
   )
   (net "TX+2_C"
+    (node "X2" "16")
     (node "X1" "11")
   )
   (net "RX+2_C"
+    (node "X2" "19")
     (node "X1" "14")
   )
 )
